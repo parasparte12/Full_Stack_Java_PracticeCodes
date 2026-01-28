@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;JDBC_LAYERED_ARC&apos; to &apos;JDBC_LAYERED_ARC_3&apos;&#x0D;&#x0A;- Original element: &apos;JDBC_LAYERED_ARC&apos;&#x0D;&#x0A;- Renamed element: &apos;JDBC_LAYERED_ARC&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;JDBC_LAYERED_ARC&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=JDBC_LAYERED_ARC" name="JDBC_LAYERED_ARC_3" references="true" stamp="1759548162334" version="1.0"/>
+</session>

@@ -1,0 +1,23 @@
+package com.paras.rest;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+import com.paras.entity.User;
+
+@org.springframework.web.bind.annotation.RestController
+public class RestController {
+	@GetMapping("/user/{id}")
+	public void getUser(@PathVariable int id) {
+		
+		User user=new User();
+		user.setId(id);
+		user.setUsername("Paras");
+		user.setEmail("paras@gmail.com");
+		user.setPassword("Paras08@2006");
+		
+		return user;
+		
+	}
+
+}

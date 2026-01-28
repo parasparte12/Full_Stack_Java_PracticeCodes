@@ -1,0 +1,5 @@
+package com.paras.rest;
+
+public interface OrderClient {
+
+}

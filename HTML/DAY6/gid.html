@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+    .COL_gridContainer{
+        width: 800px;
+
+        height: 500px;
+
+        border: 2px solid black;
+        margin: 100px auto;
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+     .ROW_gridContainer{
+        width: 800px;
+
+        height: 500px;
+
+        border: 2px solid black;
+        margin: 100px auto;
+        display: grid;
+        grid-template-rows: 200px 200px;
+    }
+    #col1{
+        background-color: red;
+    }
+    #col2{
+        background-color: blue;
+    }
+     #row1{
+        background-color: red;
+    }
+    #row2{
+        background-color: blue;
+    }
+   </style>
+</head>
+<body>
+    <div class="COL_gridContainer">
+        <div id="col1">COL1</div>
+        <div id="col2">COL2</div>
+
+    </div>
+    <div class="ROW_gridContainer">
+        <div id="row1">ROW1</div>
+        <div id="row2">ROW2</div>
+
+    </div>
+</body>
+</html>
